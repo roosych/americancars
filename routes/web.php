@@ -59,8 +59,7 @@ Route::prefix('dashboard')->middleware(['auth', 'admin'])->group(function(){
 
     Route::post('car/fetchcarmodel', [App\Http\Controllers\Admin\CarController::class, 'fetchCarmodel'])->name('fetch.carmodel');
 
-    Route::get('settings', [App\Http\Controllers\Admin\SettingsController::class, 'index'])->name('settings.index');
-//    Route::post('settings', [App\Http\Controllers\Admin\SettingsController::class, 'store'])->name('settings.store');
-    Route::put('settings', [App\Http\Controllers\Admin\SettingsController::class, 'update'])->name('settings.update');
+    Route::get('settings', [App\Http\Controllers\Admin\IndexController::class, 'setts'])->name('setts.index');
+    Route::post('settings', [App\Http\Controllers\Admin\IndexController::class, 'settstore'])->name('setts.store');
 });
 

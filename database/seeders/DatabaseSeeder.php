@@ -25,14 +25,5 @@ class DatabaseSeeder extends Seeder
             'role' => 1
         ]);
 
-        Settings::factory()->create([
-            'phone1' => '',
-            'phone2' => '',
-            'whatsapp' => '',
-            'facebook' => '',
-            'instagram' => '',
-        ]);
-
-
     }
 }

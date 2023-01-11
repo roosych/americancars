@@ -65,17 +65,17 @@
                         </ul>
                     </li>
 
-                    <li>
-                        <a href="#">
-                            <i class="ri-user-3-line"></i><span>İstifadəçilər</span></i>
-                        </a>
-                    </li>
+{{--                    <li>--}}
+{{--                        <a href="#">--}}
+{{--                            <i class="ri-user-3-line"></i><span>İstifadəçilər</span></i>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
 
-                    <li>
-                        <a href="{{route('settings.index')}}">
-                            <i class="ri-information-line"></i><span>Məlumatlar</span></i>
-                        </a>
-                    </li>
+{{--                    <li>--}}
+{{--                        <a href="#">--}}
+{{--                            <i class="ri-information-line"></i><span>Məlumatlar</span></i>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
 
                 </ul>
             </div>

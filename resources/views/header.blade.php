@@ -29,7 +29,7 @@
 
                     <div class="header__actions">
                         <div class="header__phone">
-                            <a href="tel:{{$setts->phone1}}" class="mb-0">{{$setts->phone1}}</a>
+                            <a href="tel:{{config('contacts.phone1')}}" class="mb-0">{{config('contacts.phone1')}}</a>
                         </div>
 
                         {{--<div class="header__action">
@@ -61,3 +61,6 @@
         </div>
     </div>
 </header>
+
+{{--
+{{dd(config())}}--}}
